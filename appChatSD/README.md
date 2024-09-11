@@ -53,17 +53,20 @@ python app.py
 O servidor Flask será iniciado em http://127.0.0.1:5000
 
 ## 📂 Estrutura do Projeto
-
-.
-├── app.py                 # Arquivo principal da aplicação Flask
-├── templates
-│   └── index.html         # Página HTML com o frontend do chat
-├── static
-│   ├── js
-│   │   └── chat.js        # Lógica do chat em JavaScript
-│   └── style.css          # Estilos CSS para o frontend
-└── README.md              # Arquivo de instruções (você está aqui)
-
+```bash
+│
+├── app.py               # Arquivo principal da aplicação Flask
+│
+├── templates/           # Diretório contendo os arquivos HTML
+│   └── index.html       # Página HTML com o frontend do chat
+│
+├── static/              # Diretório contendo os arquivos estáticos (CSS e JS)
+│   ├── js/
+│   │   └── chat.js      # Lógica do chat em JavaScript
+│   └── style.css        # Estilos CSS para o frontend
+│
+└── README.md            # Arquivo de instruções (você está aqui)
+```
 
 ### Explicação dos Arquivos:
  - app.py: O servidor backend que serve o frontend e gerencia as conexões WebSocket. O Flask renderiza a página HTML e o Socket.IO gerencia o envio e recebimento de mensagens em tempo real.
