@@ -5,7 +5,6 @@ Este projeto é uma aplicação simples de chat em tempo real, construída com *
 ## 📋 Funcionalidades
 
 - Enviar mensagens em tempo real.
-- Suporte a múltiplos clientes conectados simultaneamente.
 - Frontend básico com HTML e JavaScript.
 - Backend desenvolvido com Flask gerenciando a comunicação com WebSockets via Socket.IO.
 
